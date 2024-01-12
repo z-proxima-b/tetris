@@ -18,8 +18,6 @@ class board : public gameobject
     // constructor and destructor
     board();
     ~board();
-    // initialise the board, ready for a new game.
-    void initialise();
     // a helper function to print a text version of the board.
     void print();
     // paint me to screen
