@@ -1,4 +1,4 @@
-#include "states.h"
+#include "states.h"/
 #include "machine.h"
 #include "raylib.h"
 #include "game.h"
@@ -181,9 +181,7 @@ void calculating_score::enter_()
   if(game::instance()->get_next_chunk_of_rows_completed())
     SETNEXT(FLASHING);
   else
-  { 
     SETNEXT(NAVIGATING);
-  }
 }
 
 void flashing::enter_()
